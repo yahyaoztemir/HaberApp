@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1067939154100",
+    "project_id": "haberappflutterturkiye",
+    "storage_bucket": "haberappflutterturkiye.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067939154100:android:d0788ac1baf8767c5e6fe1",
+        "android_client_info": {
+          "package_name": "com.yahyaoztemir.news_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067939154100-f1rdec362c8unriognlh7g62dok5iocn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yahyaoztemir.news_app",
+            "certificate_hash": "9d1f0be381fd5fb054aed69f5c87146dfa4a05c3"
+          }
+        },
+        {
+          "client_id": "1067939154100-ri8mgh0vpq3crtcchdue9f7p4l839m1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiDjmspE5ngxC7xOYijTxiAE-huxFgWEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067939154100-ri8mgh0vpq3crtcchdue9f7p4l839m1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
