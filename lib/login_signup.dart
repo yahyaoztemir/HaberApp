@@ -24,6 +24,7 @@ class _LoginSignupPageState extends State<LoginSignupPage> {
       home: DefaultTabController(
         length: 2,
         child: Scaffold(
+          resizeToAvoidBottomInset: false,
           appBar: AppBar(
             bottom: TabBar(
               tabs: [
@@ -113,35 +114,6 @@ class _LoginSignupPageState extends State<LoginSignupPage> {
             ),
           ),
           SizedBox(height: 40,),
-          /*OutlineButton(
-            splashColor: Colors.grey,
-            onPressed: () {
-
-            },
-            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(40)),
-            highlightElevation: 0,
-            borderSide: BorderSide(color: Colors.grey),
-            child: Padding(
-              padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
-              child: Row(
-                mainAxisSize: MainAxisSize.min,
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  Image(image: AssetImage("assets/google.png"), height: 35.0),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 10),
-                    child: Text(
-                      'Sign in with Google',
-                      style: TextStyle(
-                        fontSize: 20,
-                        color: Colors.grey,
-                      ),
-                    ),
-                  )
-                ],
-              ),
-            ),
-          )*/
         ],
       ),
     );

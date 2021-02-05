@@ -1,9 +1,13 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 class Auth {
 
   final FirebaseAuth auth = FirebaseAuth.instance;
+  Auth(){
+    debugPrint(auth.onAuthStateChanged.toString());
+  }
   final GoogleSignIn googleSignIn = GoogleSignIn();
 
   Future<FirebaseUser> handleSignInEmail(String email, String password) async {

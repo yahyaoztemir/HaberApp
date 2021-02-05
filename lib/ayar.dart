@@ -1,4 +1,3 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 import 'auth.dart';
@@ -29,13 +28,13 @@ class _AyarlarState extends State<Ayarlar> {
       appBar: AppBar(
         title: Text("Ayarlar"),
       ),
-      body: Padding(
-        padding: const EdgeInsets.only(top: 124, left: 120),
+      body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text("Geliştirici : Yahya Öztemir", style: TextStyle(fontSize: 24)),
             Text(
-              "Uygulama Versiyonu v1",
+              "Hesabınızdan Çıkış Yapmak İçin ",
               style: TextStyle(fontSize: 24),
             ),
             RaisedButton(
